@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.10.0.schema.json
+PackageIdentifier: Fontra.FontraPak
+PackageVersion: 2026.10.0
+InstallerType: msi
+Scope: machine
+InstallModes:
+  - silent
+  - silentWithProgress
+ProductCode: "{39AD90FC-63DA-4922-A7C6-DD4AC69C69D8}"
+Installers:
+  - Architecture: x64
+    InstallerUrl: https://github.com/fontra/fontra-pak/releases/download/2026.10.0/FontraPak-Windows-Installer.msi
+    InstallerSha256: 4DC481D501471DE6DB0831B3B7B80C242F22893985F4726AF5E0773B1F1151A5
+ManifestType: installer
+ManifestVersion: 1.10.0
